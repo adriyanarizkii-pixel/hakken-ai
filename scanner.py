@@ -28,7 +28,7 @@ def main():
                         f"{API}/sendMessage",
                         json={
                             "chat_id": chat_id,
-                            "text": "text": (
+                            "text": (
     "Hakken AI aktif! 🤖\n\n"
     "Asisten Swing Trading Saham Indonesia\n\n"
     "Gunakan perintah:\n"
