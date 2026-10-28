@@ -28,7 +28,15 @@ def main():
                         f"{API}/sendMessage",
                         json={
                             "chat_id": chat_id,
-                            "text": "Hakken aktif! 🤖\nBot berhasil terhubung. Fitur analisis saham sedang kita siapkan."
+                            "text": "text": (
+    "Hakken AI aktif! 🤖\n\n"
+    "Asisten Swing Trading Saham Indonesia\n\n"
+    "Gunakan perintah:\n"
+    "/saham BBCA\n"
+    "/saham BBRI\n"
+    "/saham ANTM\n\n"
+    "Fitur analisis teknikal sedang dikembangkan."
+                    )
                         },
                         timeout=15
                     )
